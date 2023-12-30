@@ -105,6 +105,7 @@ article[data-special]{
             height: 40vmax;
             width: 40vmax;
             object-fit:  contain;
+            filter:grayscale(1);
         }
     }
     
