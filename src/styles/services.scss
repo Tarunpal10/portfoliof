@@ -1,0 +1,53 @@
+#services{
+    height: 80vh;
+    width: 100%;
+    >h2{
+        font: 700 2.5rem $text2;
+        width: fit-content;
+        border-bottom: 1px solid $color6_1 ;
+ 
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        padding-top: 70px;
+        // margin-left: 150px;//
+        // padding-bottom: 50px;
+    }
+    .main{
+        display:flex;
+        margin-top: 60px;
+        .web{
+            width: 500px;
+            border-right: 3px solid rgb(255, 255, 255);
+            justify-content: center;
+            text-align: center;
+            background-color: $color3;
+            height: 60vh;
+
+        }
+        .python{
+            width: 500px;
+            border-right: 3px solid rgb(255, 255, 255);
+            justify-content: center;
+            text-align: center;
+            height: 60vh;
+            background-color: $color3_light;
+            
+
+        }
+        .basic{
+            width: 500px;
+            // border-right: 3px solid black;
+            justify-content: center;
+            text-align: center;
+            background-color: $color3;
+            height: 60vh;
+        }
+        
+    }
+}
+h3{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    font: 700 $text2;
+}

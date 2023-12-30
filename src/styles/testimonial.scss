@@ -1,0 +1,97 @@
+#testimonial{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    // height: 100vh;
+    width: 100%;
+    .me{
+        font: 700 2.5rem $text2;
+        width: fit-content;
+        border-bottom: 1px solid $color6_1 ;
+        padding: 0.5rem;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    >p{
+        border: 2px solid black;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 500px;
+        height: 150px;
+        padding: 35px;
+        font-family: $text2;
+        
+        &:hover{
+            background-color: $color5;
+            color: white;
+            box-shadow: 0 0 5px 15px $color3_1;
+            transition: all 2s;
+        }
+        
+
+    }
+    .edu{
+        margin-top: 20px;
+        // border:  2px solid green;
+        // width: 500px;
+        // height: 800px;
+        // justify-content: center;
+        // align-items: center;
+        // // margin: auto;
+        // // padding: 35px;/
+        .new{
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid green;
+            width: 500px;
+            height: 100%;
+            &:hover{
+                background-color: $color5;
+                color: white;
+                box-shadow: 0 0 5px 15px $color3_1;
+                transition: all 2s;
+            }
+        }
+    }
+
+    .certificates{
+        margin-top: 20px;
+        p{
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            width: 500px;
+            height: 100%;
+            border: 2px solid rgb(0, 0, 0);
+            padding:50px;
+            &:hover{
+            background-color: $color5;
+            color: white;
+            box-shadow: 0 0 5px 15px $color3_1;
+            transition: all 2s;
+        }
+
+        }
+    }
+
+    .personal{
+        margin-top: 20px;
+        .per{
+          border: 2px solid green;
+    //    display:block;
+          justify-content:flex-end;
+            align-items:flex-end;
+            margin: auto;
+            width: 500px;
+            height: 100%;
+            &:hover{
+                background-color: $color5;
+                color: white;
+                box-shadow: 0 0 5px 15px $color3_1;
+                transition: all 2s;
+            }
+          
+        }   
+    }
+}
